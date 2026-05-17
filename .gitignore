@@ -1,0 +1,20 @@
+# Build artifacts produced by the Arduino IDE / arduino-cli
+build/
+*.elf
+*.bin
+*.hex
+*.map
+
+# Editor / IDE state
+.vscode/
+.idea/
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+
+# Local secrets (Wi-Fi credentials, Blynk auth tokens, etc.).
+# Keep src/esp32_simon_says_memory_game.ino free of real credentials and
+# load them from secrets.h (gitignored) when iterating locally.
+secrets.h
+*.secret
